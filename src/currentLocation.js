@@ -57,7 +57,7 @@ class Weather extends React.Component {
     sunset: undefined,
     errorMsg: undefined,
   };
-
+  
   componentDidMount() {
     if (navigator.geolocation) {
       this.getPosition()
